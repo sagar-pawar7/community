@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: linear-gradient(to right, #a816da, #4d0665);
+}
+#header {
+    margin-top: 40px;
+}
+.head .heading {
+    display: flex;
+    justify-content: space-around;
+}
+.head .heading .line p {
+    color: white;
+    font-size: 69px;
+    font-family: fantasy;
+    width: 320px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+.heading .social_link {
+    display: flex;
+    margin-left: -91px;
+}
+.heading .social_link .telegram {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-left: 138px;
+    background-color: #fff;
+    border: mediumspringgreen 1px solid;
+    height: 40px;
+}
+.heading .social_link .telegram:hover {
+    background-color: whitesmoke;
+}
+.heading .social_link .telegram a:nth-of-type(1) {
+    text-decoration: none;
+    font-family: fantasy;
+    color: initial;
+    padding: 5px;
+}
+.heading .social_link .telegram a img {
+    margin-top: 5px;
+    height: 29px;
+}
+.heading .social_link .discord {
+    display: flex;
+    background-color: #fff;
+    border: mediumspringgreen 1px solid;
+    margin-left: 30px;
+    align-items: center;
+    height: 40px;
+    color: initial;
+    font-size: 16px;
+}
+.heading .social_link .discord:hover {
+    background-color: whitesmoke;
+}
+.heading .social_link .discord a:nth-of-type(1) {
+    text-decoration: none;
+    padding-left: 5px;
+    color: initial;
+    font-family: fantasy;
+}
+.heading .social_link .discord a img {
+    margin-top: 5px;
+    height: 38px;
+}
+.heading .image-1 img {
+    height: 400px;
+    width: 490px;
+    border-radius: 20px;
+}
+/* join with link */
+#header .join_link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+#header .join_link .heading p {
+    font-size: 60px;
+    font-family: system-ui;
+    font-weight: lighter;
+    margin-left: 114px;
+}
+#header .join_link .link {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+#header .join_link .link .add a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+} 
+#header .join_link .link .add img {
+    margin-left: 77px;
+}
+#header .join_link .upload a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#header .join_link .upload a img {
+    height: 96px;
+    margin-left: 60px;
+    width: 96px;
+}
+/* IMAGES */
+#image {
+    margin-top: 100px;
+}
+#image .group_1 {
+    display: flex;
+    justify-content: space-between;
+}
+#image .group_2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+#image .group_3 {
+    display: flex;
+    justify-content: space-between;
+}
+#image img {
+    height: 400px;
+    width: 415px;
+    object-fit: cover;
+}
+
